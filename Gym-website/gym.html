@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym Website</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="js/gym.js"></script>
+  </head>
+  <body
+    background="media/bg.jpg"
+    style="background-repeat: no-repeat; background-size: cover"
+  >
+    <header class="header">
+      <!-- Left box for logo -->
+      <div class="left">
+       <a href=""><img src="media/logo.png" alt="" /></a> 
+      </div>
+      <!-- Mid box for navbar -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#bmi">BMI Calculator</a></li>
+          <li><a href="index.html">Our Trainers</a></li>
+        </ul>
+      </div>
+
+      <!-- Right box for buttons -->
+      <div class="right">
+        <a class="btn" href="#cNumber">Call Us Now</a>
+        <a class="btn" href="#cEmail">Email Us</a>
+      </div>
+    </header>
+    
+    <div class="container">
+      <h1>Join the best gym of India now!</h1>
+      <form action="form.html">
+        <div class="form-group">
+          <input type="text" id="name" name="" placeholder="Enter your Name" required />
+        </div>
+        <div class="form-group">
+          <input type="text" id="age" name="" placeholder="Enter your Age" required />
+        </div>
+        <div class="form-group">
+          <input type="text"  id="gender" name="" placeholder="Enter your Gender" required />
+        </div>
+        <div class="form-group">
+          <input type="text" id="locality" name="" placeholder="Enter your Locality" required />
+        </div>
+        <div class="form-group">
+          <input type="text" id="email" name="" placeholder="Enter your Email Id" required/>
+        </div>
+        <div class="form-group">
+          <input type="text" id="phone" name="" placeholder="Enter your Phone Number" required/>
+        </div>
+        <button id="btn" class="btn">Submit</button>
+        <div id="formResult"></div>
+      </form>
+    </div>
+  
+
+    
+
+    
+    <div id="about" class="about">
+      <h2>About Us</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nulla
+        inventore, veniam aspernatur repudiandae asperiores autem earum tempora
+        sapiente quasi consectetur perferendis fugiat est ipsa iure voluptate
+        vitae soluta saepe. Eos, architecto! Ea adipisci culpa, dicta, impedit
+        repellat neque repudiandae commodi maxime veniam labore deserunt, atque
+        quos libero fugit harum. Error porro nesciunt quia aperiam obcaecati
+        neque cumque fuga minima. Suscipit veniam perferendis rerum ut possimus
+        ipsum nisi molestias veritatis, quisquam, necessitatibus in distinctio
+        nostrum obcaecati voluptate quia facilis illum eligendi neque delectus
+        fugiat molestiae nobis odit ducimus enim! Vel. Ipsa molestias molestiae
+        dicta, sed, laborum vel amet eius nobis omnis eveniet adipisci earum
+        accusantium. Odio dicta suscipit sunt fugit iusto vero? Dignissimos
+        aperiam odio quis nostrum consequuntur! Dolor, dolorem! Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Possimus exercitationem
+        ipsa necessitatibus consectetur fuga officiis error sit reprehenderit.
+        Repellendus maxime maiores officiis. Aspernatur ab veritatis corporis
+        est maxime, blanditiis incidunt!
+      </p>
+    </div>
+
+    
+    <div id="bmi" class="container2">
+      <h1>BMI Calculator</h1>
+
+      <!-- Option for providing height 
+          and weight to the user-->
+    <div class="bmi">
+      <p>Height (in cm)</p>
+
+      <input type="text" id="height" />
+
+      <p>Weight (in kg)</p>
+
+      <input type="text" id="weight" />
+
+      <button class="btn-2" id="btn2">Calculate</button>
+
+      <div id="result"></div>
+    </div>
+  </div>
+    </body>
+
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <img src="media/logo.png" alt="" />
+
+        <p class="footer-company-name">Gym © 2021</p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>111, XYZ Conclave</span> Unknown Chowk, Delhi</p>
+        </div>
+
+        <div>
+          <i id="cNumber" class="fa fa-phone"></i>
+          <p>+91 1234XXX8910</p>
+        </div>
+
+        <div>
+          <i id="cEmail" class="fa fa-envelope"></i>
+          <p><a href="mailto:support@company.com">support@company.com</a></p>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About the company</span>
+          Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce
+          euismod convallis velit, eu auctor lacus vehicula sit amet.
+        </p>
+
+        <div class="footer-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
